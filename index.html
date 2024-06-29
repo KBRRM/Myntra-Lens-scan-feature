@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Product Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Product Search</h1>
+      <div class="upload-section">
+        <input type="file" id="imageInput" accept="image/*" />
+        <button onclick="analyzeImage()">Analyze Image</button>
+      </div>
+      <div class="image-section">
+        <img id="uploadedImage" src="" alt="Uploaded Image" />
+      </div>
+      <div class="result-section">
+        <h2>Similar Products:</h2>
+        <div id="resultContainer">
+          Upload an image to find similar products.
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
